@@ -1,1 +1,15 @@
-
+{
+  "name": "cloud-smart-switch",
+  "version": "1.0.0",
+  "description": "Cloud Smart Switch server ready for Render deployment and Google Home integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
